@@ -23,6 +23,7 @@ from tensorflow.keras import utils
 from tensorflow.keras import models
 from tensorflow.keras.datasets import mnist
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 (x_train, _), (x_test, _) = mnist.load_data()
